@@ -1,0 +1,6 @@
+[submodule "attack-workbench-frontend"]
+	path = attack-workbench-frontend
+	url = https://github.com/ATTACK-Workbench/attack-workbench-frontend.git
+[submodule "attack-workbench-rest-api"]
+	path = attack-workbench-rest-api
+	url = https://github.com/ATTACK-Workbench/attack-workbench-rest-api.git

@@ -1,0 +1,11 @@
+version: "3"
+
+tasks:
+  frontend:
+    cmds:
+      - git submodule add --force https://github.com/ATTACK-Workbench/attack-workbench-frontend.git
+      - git submodule update --remote attack-workbench-frontend
+  backend:
+    cmds:
+      - git submodule add --force https://github.com/ATTACK-Workbench/attack-workbench-rest-api.git
+      - git submodule update --remote attack-workbench-rest-api
