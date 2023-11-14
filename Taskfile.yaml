@@ -9,6 +9,10 @@ tasks:
     cmds:
       - git submodule add --force https://github.com/ATTACK-Workbench/attack-workbench-rest-api.git
       - git submodule update --remote attack-workbench-rest-api
+  build:
+    dir: attack-workbench-frontend
+    cmds:
+      - docker compose build
   start:
     dir: attack-workbench-frontend
     cmds:
