@@ -9,3 +9,23 @@ tasks:
     cmds:
       - git submodule add --force https://github.com/ATTACK-Workbench/attack-workbench-rest-api.git
       - git submodule update --remote attack-workbench-rest-api
+  start:
+    dir: attack-workbench-frontend
+    cmds:
+      - docker compose up -d
+  stop:
+    dir: attack-workbench-frontend
+    cmds:
+      - docker compose stop
+  down:
+    dir: attack-workbench-frontend
+    cmds:
+      - docker compose down
+  logs:
+    dir: attack-workbench-frontend
+    cmds:
+      - docker compose logs -f
+  ps:
+    dir: attack-workbench-frontend
+    cmds:
+      - docker compose ps -a
