@@ -9,6 +9,14 @@ tasks:
     cmds:
       - git submodule add --force https://github.com/ATTACK-Workbench/attack-workbench-rest-api.git
       - git submodule update --remote attack-workbench-rest-api
+  attack-stix-2.0:
+    cmds:
+      - git submodule add --force https://github.com/ATTACK-Workbench/cti.git attack-stix-2.0
+      - git submodule update --remote attack-stix-2.0
+  attack-stix-2.1:
+    cmds:
+      - git submodule add --force https://github.com/ATTACK-Workbench/attack-stix-data.git attack-stix-2.1
+      - git submodule update --remote attack-stix-2.1
   build:
     dir: attack-workbench-frontend
     cmds:
