@@ -4,3 +4,9 @@
 [submodule "attack-workbench-rest-api"]
 	path = attack-workbench-rest-api
 	url = https://github.com/ATTACK-Workbench/attack-workbench-rest-api.git
+[submodule "attack-stix-2.0"]
+	path = attack-stix-2.0
+	url = https://github.com/ATTACK-Workbench/cti.git
+[submodule "attack-stix-2.1"]
+	path = attack-stix-2.1
+	url = https://github.com/ATTACK-Workbench/attack-stix-data.git
