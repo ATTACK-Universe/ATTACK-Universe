@@ -10,3 +10,6 @@
 [submodule "attack-stix-2.1"]
 	path = attack-stix-2.1
 	url = https://github.com/ATTACK-Workbench/attack-stix-data.git
+[submodule "attack-website"]
+	path = attack-website
+	url = https://github.com/ATTACK-Universe/attack-website.git
