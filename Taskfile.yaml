@@ -1,21 +1,25 @@
 version: "3"
 
 tasks:
-  frontend:
+  workbench-frontend:
     cmds:
-      - git submodule add --force https://github.com/ATTACK-Workbench/attack-workbench-frontend.git
+      - git submodule add --force https://github.com/ATTACK-Universe/attack-workbench-frontend.git
       - git submodule update --remote attack-workbench-frontend
-  backend:
+  workbench-backend:
     cmds:
-      - git submodule add --force https://github.com/ATTACK-Workbench/attack-workbench-rest-api.git
+      - git submodule add --force https://github.com/ATTACK-Universe/attack-workbench-rest-api.git
       - git submodule update --remote attack-workbench-rest-api
+  attack-website:
+    cmds:
+      - git submodule add --force https://github.com/ATTACK-Universe/attack-website.git attack-website
+      - git submodule update --remote attack-website
   attack-stix-2.0:
     cmds:
-      - git submodule add --force https://github.com/ATTACK-Workbench/cti.git attack-stix-2.0
+      - git submodule add --force https://github.com/ATTACK-Universe/cti.git attack-stix-2.0
       - git submodule update --remote attack-stix-2.0
   attack-stix-2.1:
     cmds:
-      - git submodule add --force https://github.com/ATTACK-Workbench/attack-stix-data.git attack-stix-2.1
+      - git submodule add --force https://github.com/ATTACK-Universe/attack-stix-data.git attack-stix-2.1
       - git submodule update --remote attack-stix-2.1
   build:
     dir: attack-workbench-frontend
