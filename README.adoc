@@ -1,0 +1,9 @@
+= ATTACK Universe
+:source-highlighter: rouge
+
+== Quick Start
+
+[source,shell]
+----
+git clone --recurse-submodules https://github.com/ATTACK-Universe/ATTACK-Universe.git
+----
